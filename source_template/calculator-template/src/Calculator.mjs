@@ -11,9 +11,9 @@ function appendData(inputData) {
 }
 
 function getInputDatasMessage() { 
-    let message = '';
-    inputDatas.map(value => message += value);
-    return message;
+    let msg = '';
+    inputDatas.map(value => msg += value);
+    return msg;
 }
 
 function calculate() {
