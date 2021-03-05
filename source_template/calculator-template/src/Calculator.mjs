@@ -10,7 +10,7 @@ function appendData(inputData) {
     inputDatas.push(inputData);
 }
 
-function getInputDatasMessage() {
+function getInputDatasMessage() { 
     let message = '';
     inputDatas.map(value => message += value);
     return message;
